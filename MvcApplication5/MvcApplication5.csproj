@@ -288,6 +288,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Core.Entities\Dominio.Core.Entities.csproj">
+      <Project>{edb8aaa5-10af-4c81-adcf-cfe2e2292113}</Project>
+      <Name>Dominio.Core.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Main.Module\Dominio.Main.Module.csproj">
+      <Project>{1679c7bf-7da6-463e-b226-70b07f1b9470}</Project>
+      <Name>Dominio.Main.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

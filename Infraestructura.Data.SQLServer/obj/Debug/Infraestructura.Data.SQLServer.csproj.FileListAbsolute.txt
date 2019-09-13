@@ -1,0 +1,7 @@
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\bin\Debug\Infraestructura.Data.SQLServer.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\bin\Debug\Infraestructura.Data.SQLServer.pdb
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\bin\Debug\Dominio.Core.Entities.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\bin\Debug\Dominio.Core.Entities.pdb
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\obj\Debug\Infraestructura.Data.SQLServer.csprojResolveAssemblyReference.cache
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\obj\Debug\Infraestructura.Data.SQLServer.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Infraestructura.Data.SQLServer\obj\Debug\Infraestructura.Data.SQLServer.pdb
