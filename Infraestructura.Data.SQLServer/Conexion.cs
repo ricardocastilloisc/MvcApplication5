@@ -10,7 +10,7 @@ using System.Configuration;
 
 namespace Infraestructura.Data.SQLServer
 {
-    class Conexion
+    public class Conexion
     {
         SqlConnection conexion;
         public SqlConnection Conectar() { 

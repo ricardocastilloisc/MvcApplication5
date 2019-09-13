@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Dominio.Core.Entities
 {
-    class Usuario
+    public class Usuario
     {
         [DisplayName("Usuario")]
         [Required(ErrorMessage = "Usuario Requerido")]

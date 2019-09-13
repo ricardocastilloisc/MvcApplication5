@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Dominio.Core.Entities
 {
-    class Curso
+    public class Curso
     {
         [DisplayName("Código del curso")]
         public int codigo_c { get; set; }
