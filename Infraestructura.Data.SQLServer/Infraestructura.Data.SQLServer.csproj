@@ -42,8 +42,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Curso_I.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuario_1.cs" />
+    <Compile Include="Usuario_I.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dominio.Core.Entities\Dominio.Core.Entities.csproj">

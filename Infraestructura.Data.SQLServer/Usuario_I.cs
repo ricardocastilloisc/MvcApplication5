@@ -10,7 +10,7 @@ using System.Data.SqlClient;
 
 namespace Infraestructura.Data.SQLServer
 {
-    public class Usuario_1
+    public class Usuario_I
     {
         SqlConnection conexion;
         SqlDataAdapter comando;
