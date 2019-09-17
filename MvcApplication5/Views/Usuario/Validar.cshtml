@@ -1,6 +1,59 @@
-﻿@{
+﻿@model Dominio.Core.Entities.Usuario
+
+@{
     ViewBag.Title = "Validar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Validar</h2>
+<div aling="center">
+    <h2>Login del sistema</h2>
+</div>
+
+@using (Html.BeginForm()) { 
+    <table>
+        <tr>
+            <td>@Html.DisplayNameFor(model=>model.usuario_u)</td>
+            <td>
+                @Html.TextBox("user")
+                @Html.ValidationMessageFor(m=>m.usuario_u)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model=>Model.clave_u)</td>
+            <td>
+                @Html.Password("password")
+                @Html.ValidationMessageFor(m=>m.clave_u)
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Enviar" onclick="Validar()" /></td>
+        </tr>
+
+    </table>
+}
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+<script type="text/javascript">
+    function Validar() {
+        var usuario = $("#user").val();
+        var password = $("#password").val();
+
+        if (usuario == '') {
+            alert(' Indique el usuario');
+            $("#user").focus();
+            return false;
+        }
+
+        if (password == '') {
+            alert('Indique clave');
+            $("#password").focus();
+            return false;
+        }
+        return true;
+    }
+</script>
+
+}
