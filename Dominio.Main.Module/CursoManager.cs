@@ -12,10 +12,14 @@ namespace Dominio.Main.Module
 {
      public class CursoManager
      {
-         Usuario_I usi = new Usuario_I();
+         Curso_I cur = new Curso_I();
 
-         public IEnumerable<Usuario> LoginUsuario(string user, string password) {
-             return usi.LoginUsuario(user, password);
+         public IEnumerable<Curso> ListarCursos() {
+             return cur.ListarCursos();
+         }
+
+         public Boolean RegistrarCurso(Curso objeto) {
+             return cur.RegistrarCurso(objeto);
          }
      }
 
