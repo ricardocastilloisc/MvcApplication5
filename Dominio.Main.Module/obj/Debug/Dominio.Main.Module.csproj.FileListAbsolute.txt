@@ -1,0 +1,9 @@
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Dominio.Main.Module.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Dominio.Main.Module.pdb
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Dominio.Core.Entities.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Infraestructura.Data.SQLServer.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Dominio.Core.Entities.pdb
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\bin\Debug\Infraestructura.Data.SQLServer.pdb
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\obj\Debug\Dominio.Main.Module.csprojResolveAssemblyReference.cache
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\obj\Debug\Dominio.Main.Module.dll
+C:\Users\ricar\OneDrive\Documentos\Visual Studio 2012\Projects\MvcApplication5\Dominio.Main.Module\obj\Debug\Dominio.Main.Module.pdb

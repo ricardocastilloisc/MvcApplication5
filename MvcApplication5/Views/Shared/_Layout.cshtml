@@ -13,10 +13,16 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("su logotipo aquí", "Index", "Home")</p>
+                    @*<p class="site-title">@Html.ActionLink("su logotipo aquí", "Index", "Home")</p>*@
+                    <table>
+                        <tr>
+                            <td><img src="http://placehold.it/300x150" /></td>
+                            <td><label style="font-size:30px; font-family:'Comic Sans MS'; font-weight:bold;">GOOD MEDIA ASP.NET</label></td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="float-right">
-                    <section id="login">
+              @*      <section id="login">
                         @Html.Partial("_LoginPartial")
                     </section>
                     <nav>
@@ -25,7 +31,7 @@
                             <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                             <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                         </ul>
-                    </nav>
+                    </nav>*@
                 </div>
             </div>
         </header>
