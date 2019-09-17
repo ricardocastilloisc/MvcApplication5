@@ -44,7 +44,7 @@ namespace Infraestructura.Data.SQLServer
                     Usuario objeto = new Usuario();
                     objeto.usuario_u = Convert.ToString(dr["usuario_u"]);
                     objeto.clave_u = Convert.ToString(dr["clave_u"]);
-                    objeto.nombreUsuario_u = Convert.ToString(dr["nombre_u"]);
+                    objeto.nombreUsuario_u = Convert.ToString(dr["nombreUsuario_u"]);
 
                     lista.Add(objeto);
                 }
